@@ -5,8 +5,9 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-@Entity
 @Data
+@Entity
+@Table(name = "Employee")
 public class Employee {
     @Id
     @Column(name = "E_Id")
